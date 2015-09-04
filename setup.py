@@ -13,7 +13,7 @@ setup(name="virtualenv-relocate",
     author_email='kanteshraj@gmail.com',
     url='https://github.com/kanteshraj/virtualenv-relocate',
     license="MIT",
-    py_modules=["virtualenv-relocate"],
+    py_modules=["relocate"],
     entry_points={
         'console_scripts': [
             'virtualenv-relocate=relocate:main',
