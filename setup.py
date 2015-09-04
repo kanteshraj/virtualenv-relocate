@@ -16,7 +16,7 @@ setup(name="virtualenv-relocate",
     py_modules=["virtualenv-relocate"],
     entry_points={
         'console_scripts': [
-            'virtualenv-relocate=virtualenv-relocate:main',
+            'virtualenv-relocate=relocate:main',
     ]},
     classifiers=[
         "License :: MIT License",
